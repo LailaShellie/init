@@ -1,2 +1,4 @@
 #!/bin/bash
-curl wttr.in/Moscow
+echo "Input Location"
+read location
+curl wttr.in/$location
